@@ -1,0 +1,60 @@
+.header_bottom {
+  max-width: 1220px;
+  margin: 0 auto;
+  background-color: #edf2fb;
+  height: 400px;
+  padding: 10px;
+  h1 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 21px;
+    color: black;
+  }
+}
+.container {
+  display: flex;
+  align-items: center;
+  background-color: #e2eafc;
+  height: 60px;
+  width: 96%;
+  margin: 0 auto;
+  gap: 6rem;
+  padding: 10px 0px;
+  border: 1px solid #33415c;
+  h1 {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: black;
+  }
+  p {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 21px;
+    color: #818a91;
+  }
+
+  .Aktiv {
+    button {
+      border: none;
+
+      border-radius: 17px;
+      width: 70px;
+      background: yellow;
+      p {
+        font-family: "Poppins";
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 21px;
+        color: black;
+      }
+    }
+  }
+}
